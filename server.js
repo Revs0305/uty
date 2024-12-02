@@ -21,7 +21,7 @@ var checkRateLimit = require('./lib/rate-limit')(process.env.CORSANYWHERE_RATELI
 
 var cors_proxy = require('./lib/cors-anywhere');
 cors_proxy.createServer({
-  originWhitelist: ['https://futbolhonduras24.com', 'https://megadeportestv2.online', 'https://crimson-dela-26.tiiny.io'],
+  originWhitelist: ['https://futbolhonduras24.com', 'https://futbolhonduras24.site', 'https://crimson-dela-26.tiiny.io'],
   originWhitelist: originWhitelist,
   requireHeader: ['origin', 'x-requested-with'],
   checkRateLimit: checkRateLimit,
